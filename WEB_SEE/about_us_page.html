@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1547496832-84e64458210a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80);
+  background-size: cover;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.4, 0.2);
+  margin: 8px;
+
+}
+
+.about-section {
+  
+  padding: 10px;
+  text-align: center;
+  color: black;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+  
+}
+hr
+{
+  background-color: black;
+  width:80%;
+  height: 4px;
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h2 style="font-family: 'Brush Script MT', cursive;font-size: 60px">OUR MISSION</h2>
+  
+  <p style="text-decoration: all ;font-size: 40px;font-family: 'Brush Script MT', cursive" ><i>The Mission of this website is to let the tourists explore the city. And help them with the destinations based on their choice. The website includes about the tourist places of particular city, its location and the resorts, hotels near by, to help them with the accomodation.</i></p>
+  
+</div>
+
+<hr>
+
+<h2 style="text-align:center;font-family: Arial,bold;font-size: 50px">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://as1.ftcdn.net/jpg/01/87/68/52/500_F_187685268_rBij3TI5BrcE1zRiyfWLJZEhXMRHEaRv.jpg" alt="Kratika Laxetti" style="width:100%"></a>
+      <div class="container">
+        <h2>Kratika Laxetti</h2>
+        <p>USN: 2GI19CS058</p>
+        <a href="mailto:2GI19CS058@gmail.com">
+        <p><button class="button">Contact</button></p>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://as1.ftcdn.net/jpg/01/87/68/52/500_F_187685268_rBij3TI5BrcE1zRiyfWLJZEhXMRHEaRv.jpg" alt="Atiya Mujawar" style="width:100%">
+      <div class="container">
+        <h2>Atiya Mujawar</h2>
+        <p>USN: 2GI19CS027</p>
+        <a href="mailto:2GI19CS027@gmail.com">
+        <p><button class="button">Contact</button></p>
+      </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://as1.ftcdn.net/jpg/01/87/68/52/500_F_187685268_rBij3TI5BrcE1zRiyfWLJZEhXMRHEaRv.jpg" alt="Aparna" style="width:100%">
+      <div class="container">
+        <h2>Aparna</h2>
+        <p>USN: 2GI19CS023</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://t4.ftcdn.net/jpg/01/26/63/11/240_F_126631173_W9Nq8ZA5s0R0M3ZIBx3BMytVIFseGa9c.jpg" alt="Chidambar Inamdar" style="width:100%" height="415px">
+      <div class="container">
+        <h2>Chidambar Inamdar</h2>
+        <p>USN: 2GI19CS035</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+</body>
+</html>

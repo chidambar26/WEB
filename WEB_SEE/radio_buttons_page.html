@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			background-image: url(https://images.unsplash.com/photo-1598797246294-7620e33a632f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+			background-size: cover;
+		}
+	.form
+		{
+			text-align: center;
+			max-width: 350px;
+			border-radius: 20px;
+			margin: auto;
+			background:rgba(0,0,0,0.7);
+			box-sizing: border-box;
+			padding: 30px;
+			color: white;
+			margin-top: 80px;
+			
+		
+		}
+		.req
+		{
+			text-align: left;
+		}
+		
+	</style>      
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+<script type="text/javascript">
+	function idForm(){
+   var selectvalue = $('input[name=places]:checked', '#idForm').val();
+
+
+if(selectvalue == "Historical places"){
+window.open('file:///C:/Users/Chidambar/OneDrive/Desktop/WEB_SEE/historical_page.html','_self);
+return true;
+}
+else if(selectvalue == "Lake View"){
+window.open('file:///C:/Users/Chidambar/OneDrive/Desktop/WEB_SEE/lake_page.html','_self');
+return true;
+}else if(selectvalue == 'Hilly View'){
+window.open('file:///C:/Users/Chidambar/OneDrive/Desktop/WEB_SEE/hilly_page.html','_self');
+return true;
+}
+return false;
+};
+
+
+</script>          
+</head>
+<body>
+		<div class="form">
+	<form class="Reqpage" id="idForm">
+		<h2>Click on your Choice of Destination to visit in bangalore!</h2>
+		<br>
+			<div class="req">
+				
+			
+			<input type="radio" onclick="idForm()" name="places" value="Hilly View" >
+			<label for="Mountain View"> HILLY VIEW</label>
+
+			<br>
+			<br>
+
+
+			<input type="radio" onclick="idForm()" name="places" value="Lake View" >
+			<label for="Water View"> WATER VIEW</label>
+			<br>
+			<br>
+
+
+			<input type="radio" onclick="idForm()" name="places"    value="Historical places" >
+			<label for="Historical places"> HISTORICAL PLACES</label>
+			</div>
+			<br>
+			<br>
+			
+	</form>
+        
+  
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
